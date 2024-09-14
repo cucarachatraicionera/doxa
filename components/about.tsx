@@ -22,17 +22,12 @@ const About: React.FC = () => {
           mb="20px"
           alignSelf="flex-start"
         >
-          About us
+          Sobre Nosotros
         </Heading>
         <Text fontSize="md" mb="20px" alignSelf="flex-start" textAlign="left">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s.
+      
+En DOXA, somos un equipo apasionado por transformar espacios. Nos dedicamos a la remodelación de pisos, baños, cocinas y mucho más, siempre trabajando en conjunto para hacer realidad las ideas de nuestros clientes. Ofrecemos un servicio integral, desde la asesoría hasta la ejecución, garantizando calidad, profesionalismo y precios justos en cada proyecto. Tu satisfacción es nuestra prioridad.
         </Text>
-        <Button>Learn More</Button>
       </Flex>
       <Box gridColumn="4 / 7">
         <Image

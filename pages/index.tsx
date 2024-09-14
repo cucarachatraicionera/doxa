@@ -14,10 +14,8 @@ const Home: React.FC = () => {
     <>
       <Nav />
       <Header />
-      <DreamHome />
       <About />
       <Service />
-      <CreativeDirector />
       <OurProject />
 
       <Divider mt="24" />

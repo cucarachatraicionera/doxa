@@ -38,7 +38,7 @@ const Header: React.FC = () => {
           paddingX={['24px', '24px', '30px', '30px', '30px']}
           paddingY={['8px', '8px', '14px', '14px', '14px']}
         >
-          Ideas & Inspirations
+          Ideas e inspiracion
         </Heading>
       </Flex>
     </Grid>

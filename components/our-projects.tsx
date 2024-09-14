@@ -6,11 +6,10 @@ const OurProject: React.FC = () => {
   return (
     <Flex flexDirection="column" alignItems="center" mt="24">
       <Heading as="h3" textTransform="uppercase" mb="20px">
-        Our Projects
+        Nuestros Proyectos
       </Heading>
       <Text fontSize="16px" mb="32px" maxW="460px" textAlign="center">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
+      Nuestros proyectos combinan calidad, innovación y precisión para transformar cada espacio.
       </Text>
       <Grid
         gridTemplateColumns="repeat(3, 1fr)"

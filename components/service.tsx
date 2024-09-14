@@ -49,8 +49,8 @@ const Service: React.FC = () => {
             mb="20px"
             alignSelf="flex-start"
           >
-            We Will Create Modern And First Class Intorior.
-          </Heading>
+Transformamos tus ideas en espacios únicos y funcionales.
+</Heading>
           <Text
             fontSize="sm"
             mb="20px"
@@ -58,25 +58,9 @@ const Service: React.FC = () => {
             textAlign="left"
             lineHeight="23px"
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make aa type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+           En DOXA, ofrecemos una amplia gama de servicios profesionales para la remodelación de tu hogar o negocio. Nos especializamos en la renovación de pisos, baños, cocinas, y mucho más. Nuestro equipo maneja trabajos de fontanería, electricidad, aislamiento térmico, instalación de tela asfáltica, carpintería, y sistemas multicapa. Además, realizamos instalaciones de puertas, ventanas, mamparas, y terrazas. Cada proyecto es ejecutado con el más alto nivel de detalle y compromiso, garantizando soluciones personalizadas, ajustadas a tus necesidades y siempre con la mejor calidad y profesionalismo.
           </Text>
-          <Button
-            alignSelf="flex-start"
-            variantColor="white"
-            backgroundColor="#fff"
-            color="orange.500"
-            width="fit-content"
-          >
-            Learn More
-          </Button>
+          
         </Flex>
       </Grid>
     </Box>

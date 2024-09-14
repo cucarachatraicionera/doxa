@@ -20,9 +20,7 @@ const Footer: React.FC = () => {
       >
         <Logo />
         <Text fontSize="sm" mt="4" textAlign="left" lineHeight="22px">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+        En DOXA, nos dedicamos a transformar tus espacios con profesionalismo y atención al detalle. Contáctanos para hacer realidad tus ideas a precios justos y con total confianza.
         </Text>
         <Flex
           flexDirection="row"
@@ -38,22 +36,7 @@ const Footer: React.FC = () => {
         </Flex>
       </Flex>
 
-      <Flex
-        flexDirection="column"
-        alignItems="flex-start"
-        gridColumn={['1 / 7', '1 / 7', '1 / 7', '3 / 4', '3 / 4']}
-        paddingX="8"
-        mt={['12', '12', '12', '0', '0']}
-      >
-        <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
-          Projects
-        </Text>
-        <Text mb="6px">WHMCS-bridge</Text>
-        <Text mb="6px">Search Domain</Text>
-        <Text mb="6px">My Account</Text>
-        <Text mb="6px">Shopping Cart</Text>
-        <Text>Our Shop</Text>
-      </Flex>
+    
 
       <Flex
         flexDirection="column"
@@ -70,21 +53,7 @@ const Footer: React.FC = () => {
         <Text>Email: info@colorlib.com</Text>
       </Flex>
 
-      <Flex
-        flexDirection="column"
-        alignItems="flex-start"
-        gridColumn={['1 / 7', '1 / 7', '1 / 7', '5 / 6', '5 / 6']}
-        paddingX={['8', '8', '8', '2', '2']}
-        mt={['12', '12', '12', '0', '0']}
-      >
-        <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
-          Newsletter
-        </Text>
-        <Text mb="6px">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.{' '}
-        </Text>
-      </Flex>
+      
     </Grid>
   )
 }
