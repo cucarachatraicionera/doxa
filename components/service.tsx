@@ -40,7 +40,7 @@ const Service: React.FC = () => {
             mb="8px"
             alignSelf="flex-start"
           >
-            Our Professional Services
+            Nuestros Servicios Profesionales
           </Heading>
           <Heading
             as="h4"
