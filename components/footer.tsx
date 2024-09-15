@@ -29,7 +29,6 @@ const Footer: React.FC = () => {
           mt="8"
         >
           <Box as={FaFacebookF} size="22px" color="orange.500" mr="12px" />
-          <Box as={FaTwitter} size="22px" color="orange.500" mr="12px" />
           <Box as={FaGoogle} size="22px" color="orange.500" mr="12px" />
           <Box as={FaInstagram} size="22px" color="orange.500" mr="12px" />
           <Box as={FaYoutube} size="22px" color="orange.500" />
