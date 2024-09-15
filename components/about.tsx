@@ -25,8 +25,8 @@ const About: React.FC = () => {
           Sobre Nosotros
         </Heading>
         <Text fontSize="md" mb="20px" alignSelf="flex-start" textAlign="left">
-      
-En DOXA, somos un equipo apasionado por transformar espacios. Nos dedicamos a la remodelación de pisos, baños, cocinas y mucho más, siempre trabajando en conjunto para hacer realidad las ideas de nuestros clientes. Ofrecemos un servicio integral, desde la asesoría hasta la ejecución, garantizando calidad, profesionalismo y precios justos en cada proyecto. Tu satisfacción es nuestra prioridad.
+        En DOXA somos un equipo apasionado por transformar espacios. Ofrecemos un servicio integral, desde la asesoría hasta la ejecución, garantizando calidad, profesionalidad y precios justos en cada proyecto.
+        Su satisfacción es nuestra prioridad.      
         </Text>
       </Flex>
       <Box gridColumn="4 / 7">

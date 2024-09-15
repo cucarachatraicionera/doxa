@@ -8,6 +8,8 @@ import Footer from '../components/footer'
 import OurProject from '../components/our-projects'
 import CreativeDirector from '../components/creative-director'
 import { Divider } from '@chakra-ui/core'
+import WhatsAppButton from '../components/whatssapp'; // Ajusta la ruta si es necesario
+
 
 const Home: React.FC = () => {
   return (
@@ -17,8 +19,8 @@ const Home: React.FC = () => {
       <About />
       <Service />
       <OurProject />
-
       <Divider mt="24" />
+      <WhatsAppButton phoneNumber="34672260477" message="¡Hola! Tengo una consulta sobre sus servicios." />
       <Footer />
     </>
   )

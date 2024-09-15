@@ -48,9 +48,9 @@ const Footer: React.FC = () => {
         <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
           Contact Us
         </Text>
-        <Text mb="6px">Address: C-308 New Delhi</Text>
-        <Text mb="6px">Phone: +91 9876543210</Text>
-        <Text>Email: info@colorlib.com</Text>
+        <Text mb="6px">Address: Carrer del Valles 56 nave industrial</Text>
+        <Text mb="6px">Phone: +34 672260477</Text>
+        <Text>Email: carlosduque.77reformas@gmail.com</Text>
       </Flex>
 
       
