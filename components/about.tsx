@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex, Heading, Text, Image, Grid } from '@chakra-ui/core'
+import { Box, Flex, Heading, Text, Grid } from '@chakra-ui/core'
 import Button from './button'
 
 const About: React.FC = () => {
@@ -25,16 +25,30 @@ const About: React.FC = () => {
           Sobre Nosotros
         </Heading>
         <Text fontSize="md" mb="20px" alignSelf="flex-start" textAlign="left">
-        En DOXA somos un equipo apasionado por transformar espacios. Ofrecemos un servicio integral, desde la asesoría hasta la ejecución, garantizando calidad, profesionalidad y precios justos en cada proyecto.
-        Su satisfacción es nuestra prioridad.      
+          En DOXA somos un equipo apasionado por transformar espacios. Ofrecemos un servicio integral, desde la asesoría hasta la ejecución, garantizando calidad, profesionalidad y precios justos en cada proyecto.
+          Su satisfacción es nuestra prioridad.      
         </Text>
       </Flex>
-      <Box gridColumn="4 / 7">
-        <Image
-          src="/about-us-bg.png"
-          display={['none', 'none', 'none', 'block', 'block']}
-          width="100%"
-        />
+      <Box gridColumn="4 / 7" display={['none', 'none', 'none', 'block', 'block']}>
+        <Box
+          position="relative"
+          paddingTop="177%" // Para mantener la proporción de Shorts
+        >
+          <iframe
+            src="https://www.youtube.com/embed/yYfPjWRPmm8"
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              border: 0,
+            }}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="YouTube Short"
+          ></iframe>
+        </Box>
       </Box>
     </Grid>
   )
