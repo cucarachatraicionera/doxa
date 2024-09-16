@@ -3,11 +3,10 @@ import { Text, Flex, Grid, Box } from '@chakra-ui/core'
 import Logo from './logo'
 import {
   FaFacebookF,
-  FaTwitter,
-  FaGoogle,
   FaInstagram,
   FaYoutube
 } from 'react-icons/fa'
+import { RiTiktokFill } from 'react-icons/ri'  // Importamos el ícono de TikTok desde Remix Icons
 
 const Footer: React.FC = () => {
   return (
@@ -20,7 +19,7 @@ const Footer: React.FC = () => {
       >
         <Logo />
         <Text fontSize="sm" mt="4" textAlign="left" lineHeight="22px">
-        En DOXA, nos dedicamos a transformar tus espacios con profesionalismo y atención al detalle. Contáctanos para hacer realidad tus ideas a precios justos y con total confianza.
+          En DOXA, nos dedicamos a transformar tus espacios con profesionalismo y atención al detalle. Contáctanos para hacer realidad tus ideas a precios justos y con total confianza.
         </Text>
         <Flex
           flexDirection="row"
@@ -28,14 +27,20 @@ const Footer: React.FC = () => {
           alignItems="center"
           mt="8"
         >
-          <Box as={FaFacebookF} size="22px" color="orange.500" mr="12px" />
-          <Box as={FaGoogle} size="22px" color="orange.500" mr="12px" />
-          <Box as={FaInstagram} size="22px" color="orange.500" mr="12px" />
-          <Box as={FaYoutube} size="22px" color="orange.500" />
+          <a href="https://www.facebook.com/share/bstZ8rgZi7YMMrn3/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+            <Box as={FaFacebookF} size="22px" color="orange.500" mr="12px" />
+          </a>
+          <a href="https://www.instagram.com/carlosduque.77?igsh=eTg5dXAwNmpzZm55&utm_source=qr" target="_blank" rel="noopener noreferrer">
+            <Box as={FaInstagram} size="22px" color="orange.500" mr="12px" />
+          </a>
+          <a href="https://www.youtube.com/@CarlosAndresDuque-w1n" target="_blank" rel="noopener noreferrer">
+            <Box as={FaYoutube} size="22px" color="orange.500" mr="12px" />
+          </a>
+          <a href="https://www.tiktok.com/@carlosduque.77?_t=8pkLvF7s8cI&_r=1" target="_blank" rel="noopener noreferrer">
+            <Box as={RiTiktokFill} size="22px" color="orange.500" />
+          </a>
         </Flex>
       </Flex>
-
-    
 
       <Flex
         flexDirection="column"
@@ -48,11 +53,22 @@ const Footer: React.FC = () => {
           Contact Us
         </Text>
         <Text mb="6px">Address: Carrer del Valles 56 nave industrial</Text>
-        <Text mb="6px">Phone: +34 672260477</Text>
-        <Text>Email: carlosduque.77reformas@gmail.com</Text>
+        <Text mb="6px">
+          Phone:{' '}
+          <a href="tel:+34672260477" style={{ color: 'orange.500' }}>
+            +34 672260477
+          </a>
+        </Text>
+        <Text>
+          Email:{' '}
+          <a
+            href="mailto:carlosduque.77reformas@gmail.com"
+            style={{ color: 'orange.500' }}
+          >
+            carlosduque.77reformas@gmail.com
+          </a>
+        </Text>
       </Flex>
-
-      
     </Grid>
   )
 }
