@@ -32,16 +32,15 @@ const About: React.FC = () => {
       <Box gridColumn="4 / 7" display={['none', 'none', 'none', 'block', 'block']}>
         <Box
           position="relative"
-          paddingTop="177%" // Para mantener la proporción de Shorts
+          width="100%"
+          maxWidth="360px" // Tamaño original de Shorts en YouTube
+          margin="0 auto" // Centrar el video
         >
           <iframe
             src="https://www.youtube.com/embed/yYfPjWRPmm8"
             style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
               width: '100%',
-              height: '100%',
+              height: '640px', // Altura típica de Shorts
               border: 0,
             }}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
