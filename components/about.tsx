@@ -40,7 +40,7 @@ const About: React.FC = () => {
           margin="0 auto" // Centrado del video
         >
           <iframe
-            src="https://www.youtube.com/embed/yYfPjWRPmm8"
+            src="https://www.youtube.com/embed/8gYbDk5Xg4E"
             style={{
               width: '100%',
               height: '640px',
