@@ -1,6 +1,5 @@
 import React from 'react'
 import { Box, Flex, Heading, Text, Grid } from '@chakra-ui/core'
-import Button from './button'
 
 const About: React.FC = () => {
   return (
@@ -29,18 +28,22 @@ const About: React.FC = () => {
           Su satisfacción es nuestra prioridad.      
         </Text>
       </Flex>
-      <Box gridColumn="4 / 7" display={['none', 'none', 'none', 'block', 'block']}>
+      <Box
+        gridColumn={['1 / 7', '1 / 7', '1 / 7', '4 / 7', '4 / 7']} // En móviles, colocamos el video abajo
+        display={['block', 'block', 'block', 'block', 'block']}
+        marginTop={['20px', '20px', '20px', '0', '0']} // Espacio adicional en móviles
+      >
         <Box
           position="relative"
           width="100%"
-          maxWidth="360px" // Tamaño original de Shorts en YouTube
-          margin="0 auto" // Centrar el video
+          maxWidth={['100%', '100%', '360px']} // Ajuste del tamaño según la pantalla
+          margin="0 auto" // Centrado del video
         >
           <iframe
             src="https://www.youtube.com/embed/yYfPjWRPmm8"
             style={{
               width: '100%',
-              height: '640px', // Altura típica de Shorts
+              height: '640px',
               border: 0,
             }}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
