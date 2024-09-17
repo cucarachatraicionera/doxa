@@ -7,9 +7,9 @@ import Service from '../components/service'
 import Footer from '../components/footer'
 import OurProject from '../components/our-projects'
 import CreativeDirector from '../components/creative-director'
-import { Divider } from '@chakra-ui/core'
+import { Divider, Box, Button } from '@chakra-ui/core'
 import WhatsAppButton from '../components/whatssapp'; // Ajusta la ruta si es necesario
-
+import Link from 'next/link' // Importa Next.js Link para la navegación interna
 
 const Home: React.FC = () => {
   return (
@@ -17,6 +17,21 @@ const Home: React.FC = () => {
       <Nav />
       <Header />
       <About />
+
+      {/* Enlace al blog */}
+      <Box textAlign="center" mt="24" mb="24">
+        <Link href="/blog" passHref>
+          <Button
+            bg="orange.500"      // Color de fondo
+            color="white"        // Color del texto
+            size="lg"            // Tamaño del botón
+            _hover={{ bg: 'orange.600' }}  // Color de fondo al pasar el mouse
+          >
+            Visita nuestro Blog
+          </Button>
+        </Link>
+      </Box>
+
       <Service />
       <OurProject />
       <Divider mt="24" />
