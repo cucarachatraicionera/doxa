@@ -8,8 +8,7 @@ import Footer from '../components/footer'
 import OurProject from '../components/our-projects'
 import CreativeDirector from '../components/creative-director'
 import { Divider, Box, Button } from '@chakra-ui/core'
-import WhatsAppButton from '../components/whatssapp'; // Ajusta la ruta si es necesario
-import Link from 'next/link' // Importa Next.js Link para la navegación interna
+import WhatsAppButton from '../components/whatssapp' // Ajusta la ruta si es necesario
 
 const Home: React.FC = () => {
   return (
@@ -18,9 +17,9 @@ const Home: React.FC = () => {
       <Header />
       <About />
 
-      {/* Enlace al blog */}
+      {/* Enlace al blog externo */}
       <Box textAlign="center" mt="24" mb="24">
-        <Link href="/blog" passHref>
+        <a href="https://medium.com/@cryptomemecoingo" target="_blank" rel="noopener noreferrer">
           <Button
             bg="orange.500"      // Color de fondo
             color="white"        // Color del texto
@@ -29,7 +28,7 @@ const Home: React.FC = () => {
           >
             Visita nuestro Blog
           </Button>
-        </Link>
+        </a>
       </Box>
 
       <Service />
