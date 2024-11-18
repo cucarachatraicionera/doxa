@@ -19,7 +19,7 @@ const Home: React.FC = () => {
 
       {/* Enlace al blog externo */}
       <Box textAlign="center" mt="24" mb="24">
-        <a href="https://medium.com/@cryptomemecoingo" target="_blank" rel="noopener noreferrer">
+        <a href="https://medium.com/@adrianafrancos920" target="_blank" rel="noopener noreferrer">
           <Button
             bg="orange.500"      // Color de fondo
             color="white"        // Color del texto
